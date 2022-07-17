@@ -1,0 +1,40 @@
+
+                                     Original                  Reduced
+Parameter blocks                           56                       55
+Parameters                                394                      387
+Effective parameters                      340                      334
+Residual blocks                         12442                    12442
+Residuals                               24884                    24884
+
+Minimizer                        TRUST_REGION
+
+Sparse linear algebra library    SUITE_SPARSE
+Trust region strategy     LEVENBERG_MARQUARDT
+
+                                        Given                     Used
+Linear solver          SPARSE_NORMAL_CHOLESKY   SPARSE_NORMAL_CHOLESKY
+Threads                                     8                        8
+Linear solver ordering              AUTOMATIC                       55
+
+Cost:
+Initial                          1.565735e+05
+Final                            1.565735e+05
+Change                           0.000000e+00
+
+Minimizer iterations                        1
+Successful steps                            1
+Unsuccessful steps                          0
+
+Time (in seconds):
+Preprocessor                         0.006042
+
+  Residual only evaluation           0.001106 (1)
+  Jacobian & residual evaluation     0.026435 (1)
+  Linear solver                      0.011585 (1)
+Minimizer                            0.041385
+
+Postprocessor                        0.000517
+Total                                0.047944
+
+Termination:                      CONVERGENCE (Function tolerance reached. |cost_change|/cost: 2.013077e-13 <= 1.000000e-12)
+
