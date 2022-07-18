@@ -1,0 +1,12 @@
+Part1
+
+Test/src/test2: for different camera models, first project a 3d point then unprojectit, to compare with the original 3d point whether they are approximated equal. 
+
+
+Part2
+
+Robust curve fitting is more robust handling with the outliers. Because it uses Cauchy loss as the loss function. Cauchy Loss is one of the loss functions that ships with Ceres Solver. The argument specifies the scale of the loss function. As a result, the fitted curve moves back closer to the ground truth curve.
+
+Part3
+
+Command line parameters: dataset_path, cam_model
